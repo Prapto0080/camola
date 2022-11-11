@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'century gothic';
+    transition: 0.7s ease;
+    color: #fff;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(project1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 18px;
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 40px;
+}
+.peragraph{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sub_header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.peragraph0{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.peragraph0 h2 a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 8px;
+    color: #2f8da2;
+}
